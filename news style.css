@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;   
+}
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+h2 {
+    font-size: 3em;
+    text-align: center;
+}
+p {
+    font-size: 1em;
+    text-align: center;
+}
+.margin {
+    margin-left: 16.65%;
+}
